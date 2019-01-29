@@ -1,6 +1,6 @@
 const app = require('../../app.js');
 
-// Вказуючи порт 0 ми даємо задачу взяти собі любий вільний порт в ос
+// Using port zero for apportunity free ports in os
 const PORT = process.env.PORT || 8081 || 0;
 
 var listener = app.listen(PORT, (req, res) => {
